@@ -14,14 +14,14 @@
         </form>
     </div>
     <br>
-    {{#each comments as |comment| }}
-    {{> comment-details}}
-    {{/each}}
-
+    <div>
+        {{#each comments as |comment| }}
+        <div class="comment-border">
+            {{> comment-details}}
+        </div>
+        {{/each}}
+    </div>
     {{/if}}
-
-
-
 </section>
 
 {{#if logged_in}}
