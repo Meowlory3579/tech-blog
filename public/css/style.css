@@ -1,3 +1,35 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header a {
+    color: white
+}
+
+header img {
+    max-width: 80px;
+    float: right;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .comment-author {
     text-align: right;
     margin-top: 20px;
