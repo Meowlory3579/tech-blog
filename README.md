@@ -28,6 +28,13 @@ WHEN I click on the logout option in the navigation, THEN I am signed out of the
 WHEN I am idle on the site for more than a set time, THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts.
 
 ## Installation for development
+Install Node.js, if needed.
+
+Create a .gitignore file and include "node_modules", ".env", ".vscode", "package-lock.json", and ".DS_Store" in it, so that these files aren't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
+
+Make sure that your repo includes a package.json with the required dependencies. You can create one by running "npm init" when you first set up the project, before installing any dependencies.
+
+Install the following dependencies:
 npm i express-handlebars  
 npm i mysql2  
 npm i sequelize  
@@ -38,8 +45,10 @@ npm i connect-session-sequelize
 npm i express
 
 ## Usage for developers
+Right-click on the "server.js" file and select "Open in Integrated Terminal". Type "mysql -u root -p" and press enter. Enter MySQL password and press enter. Type "source db/schema.sql" and press enter. Type "exit" and press enter. Type "npm run seed" and press enter. To initiate application, type "node server.js" and press enter.
 
-Create db -- open server.js in integrated terminal. Type "mysql -u root -p" and press enter. Enter MySQL password and press enter. Type "source db/schema.sql" and press enter. Enter "exit" and press enter. NPM run seed.
+## The following video demonstrates the application's functionality
+Pending
 
 ## URL for deployed application
-TBD
+https://damp-woodland-55117-a1b32ed6e0d9.herokuapp.com
