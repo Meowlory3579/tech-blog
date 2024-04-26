@@ -27,7 +27,7 @@ WHEN I click on one of my existing posts in the dashboard, THEN I am able to del
 WHEN I click on the logout option in the navigation, THEN I am signed out of the site.  
 WHEN I am idle on the site for more than a set time, THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts.
 
-## Installation
+## Installation for development
 npm i express-handlebars  
 npm i mysql2  
 npm i sequelize  
@@ -37,7 +37,8 @@ npm i express-session
 npm i connect-session-sequelize
 npm i express
 
+## Usage for developers
+
 Create db -- open server.js in integrated terminal. Type "mysql -u root -p" and press enter. Enter MySQL password and press enter. Type "source db/schema.sql" and press enter. Enter "exit" and press enter. NPM run seed.
 
 ## URL for deployed application
-TBD
