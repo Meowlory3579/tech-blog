@@ -38,3 +38,6 @@ npm i connect-session-sequelize
 npm i express
 
 Create db -- open server.js in integrated terminal. Type "mysql -u root -p" and press enter. Enter MySQL password and press enter. Type "source db/schema.sql" and press enter. Enter "exit" and press enter. NPM run seed.
+
+## URL for deployed application
+TBD
