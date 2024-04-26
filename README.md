@@ -47,8 +47,8 @@ npm i express
 ## Usage for developers
 Right-click on the "server.js" file and select "Open in Integrated Terminal". Type "mysql -u root -p" and press enter. Enter MySQL password and press enter. Type "source db/schema.sql" and press enter. Type "exit" and press enter. Type "npm run seed" and press enter. To initiate application, type "node server.js" and press enter.
 
-## The following video demonstrates the application's functionality
-Pending
+## The following video demonstrates the application's appearance and functionality
+![Webpage titled "WizardTech Chronicles" featuring blog posts, if any have been created. User has the option to login or signup for the website then add, modify, or delete their own posts or leave comments on other user's posts](https://github.com/Meowlory3579/weather-dashboard/blob/main/public/assets/images/WizardTechChronicles.gif)
 
 ## URL for deployed application
 https://damp-woodland-55117-a1b32ed6e0d9.herokuapp.com
